@@ -2,7 +2,7 @@
     "private": true,
     "dependencies": {
         "joi": "^17.3.0",
-        "knex": "^0.16.1",
-        "objection": "^1.1.9"
+        "knex": "^2.2.0",
+        "objection": "^3.0.1"
     }
 }
