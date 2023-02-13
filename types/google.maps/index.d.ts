@@ -4692,7 +4692,7 @@ declare namespace google.maps {
     /**
      * The dimensions of each tile. Required.
      */
-    tileSize: google.maps.Size|null;
+    tileSize: google.maps.Size;
   }
 }
 declare namespace google.maps {
