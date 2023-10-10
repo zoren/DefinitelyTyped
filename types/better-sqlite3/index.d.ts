@@ -146,7 +146,7 @@ declare namespace Database {
         remainingPages: number;
     }
     interface BackupOptions {
-        progress: (info: BackupMetadata) => number;
+        progress: (info: BackupMetadata) => number | undefined;
     }
 
     type SqliteError = typeof SqliteError;
